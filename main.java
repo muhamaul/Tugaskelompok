@@ -7,7 +7,7 @@
  *
  * @author MacbookMAX
  */
-import java.util.Scanner;
+
 public class main{
 
 public static void main(String[] args){
@@ -15,45 +15,51 @@ public static void main(String[] args){
 //membuat sebuah object
 
 // "pegawai" merupakan class, lalu "Pegawai" merupakan objek yang akan dibuat, lalu "new pegawai();" merupakan constructor.
+
 pegawai Pegawai = new pegawai();
+
 manager Manager = new manager();
+
 kasir Kasir = new kasir();
+
 koki Koki = new koki();
+
 pelayan Pelayan = new pelayan();
+
 satpam Satpam = new satpam();
 
 
 //memasukkan nilai variabel menggunakan objek.
-System.out.println("### Pendataan Karyawan PT. Petani Kode ###");
 
-Scanner data = new Scanner(System.in);
-System.out.println("Masukan Nama Pegawai");
-Manager.nama = data.nextLine();
+Manager.nama = "sifa";
 
-//Manager.nama = "sifa";
-//Manager.id_pegawai = 1;
-//Manager.gaji = "7 Juta";
+Manager.id_pegawai = 1;
 
-//Kasir.nama = "Aldi";
-//Kasir.id_pegawai = 2;
-//Kasir.gaji = "1,2 Juta";
+Manager.gaji = "7 Juta";
 
-//Koki.nama = "Reza";
-//Koki.id_pegawai = 3;
+Kasir.nama = "Aldi";
 
-//Koki.gaji = "2 Juta";
+Kasir.id_pegawai = 2;
 
-//Pelayan.nama = "Dean";
+Kasir.gaji = "1,2 Juta";
 
-//Pelayan.id_pegawai = 4;
+Koki.nama = "Reza";
 
-//Pelayan.gaji = "1,2 Juta";
+Koki.id_pegawai = 3;
 
-//Satpam.nama = "Aldi";
+Koki.gaji = "2 Juta";
 
-//Satpam.id_pegawai = 2;
+Pelayan.nama = "Dean";
 
-//Satpam.gaji = "1 Juta";
+Pelayan.id_pegawai = 4;
+
+Pelayan.gaji = "1,2 Juta";
+
+Satpam.nama = "Aldi";
+
+Satpam.id_pegawai = 2;
+
+Satpam.gaji = "1 Juta";
 
 //nilai tersebut akan dimasukkan kedalam variabel yang ada pada superclass.
 
